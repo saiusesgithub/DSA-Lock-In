@@ -1,0 +1,10 @@
+reverse sorting of selection sort
+reverse sorting of bubble sort
+
+!!! time and space complexity foundations
+
+write notes properly of binarysearch , bubblesort , linearsearch , selectionsort
+
+sliding window , bit manipulation 
+
+other sorting algorithms (insertion , merge sort)
