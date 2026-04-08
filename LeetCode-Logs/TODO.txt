@@ -5,6 +5,17 @@ reverse sorting of bubble sort
 
 write notes properly of binarysearch , bubblesort , linearsearch , selectionsort
 
-sliding window , bit manipulation 
-
 other sorting algorithms (insertion , merge sort)
+
+circular linkedin lists and operations
+
+non recursive implemetation of binary search
+
+trees
+graphs
+
+DFS
+BFS
+
+stack
+queue
