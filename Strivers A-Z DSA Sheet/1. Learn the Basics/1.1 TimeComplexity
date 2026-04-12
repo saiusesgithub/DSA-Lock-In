@@ -1,0 +1,197 @@
+Time Complexity
+
+The rate at which the time, required to run a code, changes with respect to the input size, is considered the time complexity. 
+Basically, the time complexity of a particular code depends on the given input size, not on the machine used to run the code.
+
+Big O Notation - 
+
+for (int i =1; i<=5; i++) {
+    System.out.println("Sai");
+}
+
+The time complexity for this code will be nothing but the number of steps, this code will take to be executed. 
+in terms of Big O notation, it will be like O(no. of steps).
+
+Let’s observe the steps for this code:
+
+1. First, the assigning step(i = 1) will be done.
+2. The second step will be the comparison i.e. i <= 5.
+3. The third step will be the print statement (i.e. cout << “Raj”;).
+4. The fourth step will be the increment(i.e. i++).
+5. In the fifth step, the updated value of i will be again checked i.e. the comparison(i <= 5).
+6. In the sixth step, the print statement will be executed and so on.
+
+we can observe that the ‘for loop’ will run 5 times and for each time three steps will be surely executed 
+comparison, printing, and increment. 
+So, the total steps will be 5*3 = 15. And the time complexity in terms of Big O notation will be O(15)
+
+if we write N instead of 5, the number of steps will be then N*3 = 3N and the time complexity will be O(3*N)
+But this manual counting process is not feasible for any code. As the ‘for loop’ might run a billion or million times 
+and inside that ‘for loop’, there might be a large no. of operations or some other ‘for loops’ as well. 
+
+Here come the three rules, that we are going to follow while calculating the time complexity:
+**************************************************************************************************
+    We will always calculate the time complexity for the worst-case scenario.
+    We will avoid including the constant terms.
+    We will also avoid the lower values.
+**************************************************************************************************
+
+2. Avoid including the constant terms:
+
+consider the time complexity: O(4N³ + 3N² + 8). 
+if we consider the value of N as 10⁵ the time complexity will be like this:  
+O(4*10¹⁵ + 3*10¹⁰ + 8)
+the constant term 8 is very less significant in terms of changing the time complexity with different values of N. 
+That is why we should avoid the constant terms while calculating the time complexity.
+
+example -> 
+int x = 2;
+for (int i =1; i<=N; i++) {
+    System.out.println("Sai");
+}
+
+the first step (i.e. int x = 2) will be executed in unit time i.e. constant time. 
+The precise time complexity is O(3N + 1) but in this case, the constant 1 is very less significant. 
+So we will write the time complexity as O(3N) avoiding the constant term.
+
+
+
+3. Avoid the lower values:
+
+in the previous example, the given time complexity is O(4N³ + 3N² + 8) and we have reduced it to O(4N³ + 3N²). 
+if the value of N is a large number, the second term i.e. 3N² will also be a less significant term. 
+
+if the value of N is 105 then the term 3*1010 becomes less significant with respect to 4*1015. 
+So, we can also avoid the lower values and the final time complexity will be O(4N³)
+
+Note: A point to remember is that we can actually ignore the constant coefficients as well. 
+For example, considering the time complexity O(4N³) as O(N³) is also correct.
+
+Apart from the widely used Big O notation, there are several other notations. 
+Theta notation(θ) - Average Case 
+Omega notation(Ω) - Best Case (lower bound)
+
+
+for (int i =0;i<N;i++) {
+    for (int j =0;j<N;j++) {
+        // code in constant time
+    }
+}
+
+for i = 0, j = [0, 1, 2, 3,  ..... N-1]
+for i = 1, j = [0, 1, 2, 3,  ..... N-1]
+for i = 2, j = [0, 1, 2, 3,  ..... N-1]
+for i = 3, j = [0, 1, 2, 3,  ..... N-1]
+for i = 4, j = [0, 1, 2, 3,  ..... N-1]
+for i = 5, j = [0, 1, 2, 3,  ..... N-1]
+.
+.
+for i = N-1, j = [0, 1, 2, 3, ...... , N-1]
+
+we can clearly observe the total number of steps i.e. N+N+N+N+.......+N times = N*N = N2. 
+So, the time complexity will be O(N²). 
+
+
+
+for (int i =0;i<N;i++) {
+    for (int j =0;j<=i;j++) {
+        // code in constant time
+    }
+}
+
+for i = 0, j = [0]
+for i = 1, j = [0, 1]
+for i = 2, j = [0, 1, 2]
+for i = 3, j = [0, 1, 2, 3]
+for i = 4, j = [0, 1, 2, 3,4]
+for i = 5, j = [0, 1, 2, 3,4,5]
+.
+.
+for i = N-1, j = [0, 1, 2, 3, ...... , N-1]     // N times
+
+total number of steps i.e. 1+2+3+4+.......+N. 
+the formula of the summation of the first N natural numbers i.e. (N*(N+1))/2 = N²/2 + N/2. 
+the precise time complexity will be O(N²/2 + N/2). 
+Now, we should ignore the lower values. So, the time complexity will be O(N²/2). 
+It can be also written as O(N²) avoiding the coefficient 1/2.
+
+----------------------------------------------------------------------------------------------------------
+
+Space Complexity - 
+
+Space complexity generally represents the summation of auxiliary space and the input space. 
+Auxiliary space refers to the space that we use additionally to solve a problem.
+And input space refers to the space that we use to store the inputs.
+
+input(a) // 1 input Space
+input(b) // 1 input space
+c = a+b // c = 1 auxiliary space
+
+Here the space complexity will be O(3).
+Similarly, if we use an array of size n, the space complexity will be O(N).
+
+
+Good coding practice:
+
+If a question of adding two numbers like a and b is asked, one of the possible methods will be 
+
+b = a+b. In this case, the space complexity is definitely reduced as we are not using any extra variable but this is not a good practice to manipulate the given inputs or data. In an interview, we must be careful that we will not manipulate the given data even if the space complexity becomes 2N instead of N. If the interviewer specifically instructs us to manipulate, then only we should attempt this method.
+
+
+In competitive programming:
+
+👉 A computer can perform approximately 10⁸ (100 million) operations in 1 second
+
+## 🔹 Time Limit Understanding
+
+| Time Limit | Max Operations Allowed |
+| ---------- | ---------------------- |
+| 1 second   | ~10⁸ operations        |
+| 2 seconds  | ~2 × 10⁸ operations    |
+| 5 seconds  | ~5 × 10⁸ operations    |
+
+
+## 🔹 What This Means
+
+👉 Your algorithm must run within this limit
+👉 Otherwise → **TLE (Time Limit Exceeded)** ❌
+
+---
+
+## 🔹 Time Complexity Guide
+
+| Complexity | Safe for 1 sec?      | Example               |
+| ---------- | -------------------- | --------------------- |
+| O(1)       | ✅ Yes                | Constant              |
+| O(log n)   | ✅ Yes                | Binary Search         |
+| O(n)       | ✅ Yes                | Loop                  |
+| O(n log n) | ✅ Yes                | Sorting               |
+| O(n²)      | ⚠️ Depends (n ≤ 10⁴) | Nested loops          |
+| O(n³)      | ❌ No (too slow)      | Triple loops          |
+| O(2ⁿ)      | ❌ No                 | Recursion brute force |
+
+---
+
+Important Rule , Always check:
+
+(Time Complexity) × (Input Size) ≤ 10⁸
+
+---
+
+## 🔹 Quick Cheat Sheet
+
+| n (input size) | Max Allowed Complexity |
+| -------------- | ---------------------- |
+| 10⁸            | O(n)                   |
+| 10⁵            | O(n log n)             |
+| 10⁴            | O(n²)                  |
+| 20–25          | O(2ⁿ)                  |
+
+---
+
+## 🔹 Key Points to Remember
+
+* Ignore constants (like 2n, 5n → treat as n)
+* Focus on **highest growing term**
+* Optimize nested loops carefully
+* Think before coding!!!
