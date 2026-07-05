@@ -5,3 +5,5 @@
 03/07/2026 -
 
 04/07/2026 - 349. Intersection of Two Arrays
+
+05/07/2026 - 20. Valid Parentheses
