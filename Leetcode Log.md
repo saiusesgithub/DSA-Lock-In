@@ -11,3 +11,5 @@
 06/07/2026 - 933. Number of Recent Calls, 225. Implement Stack using Queues
 
 07/07/2026 - 242. Valid Anagram (Sorting Implementation) , 268. Missing Number (Looping Method + Formula)
+
+07/07/2026 - 125. Valid Palindrome , 167. Two Sum II - Input Array Is Sorted (Both using two pointer pattern)
