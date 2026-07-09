@@ -13,3 +13,5 @@
 07/07/2026 - 242. Valid Anagram (Sorting Implementation) , 268. Missing Number (Looping Method + Formula)
 
 07/07/2026 - 125. Valid Palindrome , 167. Two Sum II - Input Array Is Sorted (Both using two pointer pattern)
+
+08/07/2026 - 283. Move Zeroes , 26. Remove Duplicates from Sorted Array (Both using same direction moving two pointer)
