@@ -2,7 +2,7 @@
 
 02/07/2026 - 242. Valid Anagram , 217 — Contains Duplicate
 
-03/07/2026 -
+03/07/2026 - UPDATE THIS
 
 04/07/2026 - 349. Intersection of Two Arrays
 
@@ -17,5 +17,9 @@
 09/07/2026 - 283. Move Zeroes , 26. Remove Duplicates from Sorted Array (Both using same direction moving two pointer)
 
 10/07/2026 - 27. Remove Element , 905. Sort Array By Parity
+
+11/07/2026 - UPDATE THIS
+
+12/07/2026 - 15. 3Sum
 
 (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
