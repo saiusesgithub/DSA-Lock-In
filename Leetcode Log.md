@@ -24,4 +24,6 @@
 
 13/07/2026 - 704. Binary Search (Both Recursive and Iterative Implementation) , 35. Search Insert Position
 
-(EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
+14/07/2026 - 34. Find First and Last Position of Element in Sorted Array
+
+!!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
