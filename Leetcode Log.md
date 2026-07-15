@@ -26,4 +26,6 @@
 
 14/07/2026 - 34. Find First and Last Position of Element in Sorted Array
 
+15/07/2026 - 69. Sqrt(x) , 367. Valid Perfect Square
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
