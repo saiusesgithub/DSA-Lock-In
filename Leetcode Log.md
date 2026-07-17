@@ -30,4 +30,6 @@
 
 16/07/2026 - 852. Peak Index in a Mountain Array
 
+17/07/2026 - 162. Find Peak Element
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
