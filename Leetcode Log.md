@@ -34,4 +34,6 @@
 
 18/07/2026 - 33. Search in Rotated Sorted Array (1 medium is better than 2 easy's)
 
+19/07/2026 - 74. Search a 2D Matrix (Implemented both Linear and Binary Search Approaches) , 153. Find Minimum in Rotated Sorted Array
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
