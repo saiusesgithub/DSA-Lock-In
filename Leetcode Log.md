@@ -38,4 +38,6 @@
 
 20/07/2026 - 206. Reverse Linked List (using another linkedlist) , 876. Middle of the Linked List (2 pass approach)
 
+21/07/2026 - 21. Merge Two Sorted Lists , 203. Remove Linked List Elements , 83. Remove Duplicates from Sorted List
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
