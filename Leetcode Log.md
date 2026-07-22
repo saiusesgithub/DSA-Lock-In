@@ -40,4 +40,6 @@
 
 21/07/2026 - 21. Merge Two Sorted Lists , 203. Remove Linked List Elements , 83. Remove Duplicates from Sorted List
 
+22/07/2026 - 141. Linked List Cycle , 142. Linked List Cycle II
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
