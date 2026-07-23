@@ -42,4 +42,6 @@
 
 22/07/2026 - 141. Linked List Cycle , 142. Linked List Cycle II
 
+23/07/2026 - 19. Remove Nth Node From End of List
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
