@@ -44,4 +44,6 @@
 
 23/07/2026 - 19. Remove Nth Node From End of List
 
+24/07/2026 - 160. Intersection of Two Linked Lists , 234. Palindrome Linked List
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
