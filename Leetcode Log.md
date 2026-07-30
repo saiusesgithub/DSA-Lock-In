@@ -56,4 +56,6 @@
 
 29/07/2026 - 724. Find Pivot Index , 1991. Find the Middle Index in Array (not as simple as it sounds , i have to find the pivot index , not array middle index)
 
+30/07/2026 - 605. Can Place Flowers
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
