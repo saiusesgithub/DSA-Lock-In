@@ -62,8 +62,10 @@
 
 ---
 
-01/08/2026 - 844. Backspace String Compare
+01/08/2026 - 58. Length of Last Word
 
 02/08/2026 - 1684. Count the Number of Consistent Strings
+
+03/08/2026 - 1752. Check if Array Is Sorted and Rotated
 
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
