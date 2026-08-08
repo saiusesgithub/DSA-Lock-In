@@ -76,4 +76,6 @@
 
 07/08/2026 - 448. Find All Numbers Disappeared in an Array
 
+08/08/2026 - 1207. Unique Number of Occurrences (2 Approaches)
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
