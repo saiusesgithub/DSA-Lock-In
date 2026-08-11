@@ -80,4 +80,8 @@
 
 09/08/2026 - 2215. Find the Difference of Two Arrays
 
+10/08/2026 - 104. Maximum Depth of Binary Tree
+
+11/08/2026 - 226. Invert Binary Tree
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
