@@ -89,4 +89,7 @@
 13/08-2026 - 2236. Root Equals Sum of Children
 
 14/08/2026 - 2114. Maximum Number of Words Found in Sentences
+
+15/08/2026 - 938. Range Sum of BST
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
