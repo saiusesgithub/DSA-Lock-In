@@ -100,4 +100,6 @@
 
 19/08/2026 - 191. Number of 1 Bits
 
+20/08/2026 - 2220. Minimum Bit Flips to Convert Number
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
