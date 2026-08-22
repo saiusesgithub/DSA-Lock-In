@@ -104,4 +104,6 @@
 
 21/08/2026 - 476. Number Complement
 
+22/08/2026 - 342. Power of Four (Bit Manipulation Approach)
+
 !!!! (EXPAND THIS , add stuff like hardness level for each question , and like topic i learnt , my method of implemetation , any notes like alternavite methods to try)
